@@ -4,7 +4,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { GithubapisService } from './services/githubapis.service';
-import { MaterialeModule } from 'src/material.module';
+import { MaterialeModule } from '../material.module';
 import { CommanModuleModule } from './comman-module/comman-module.module';
 import { StoreModule } from '@ngrx/store';
 import {reducers} from './store/app.reducer'
