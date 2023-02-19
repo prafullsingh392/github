@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { HistoryRoutingModule } from './history-routing.module';
 import { HistoryComponent } from './history/history.component';
-import { CommanModuleModule } from 'src/app/comman-module/comman-module.module';
+import { CommanModuleModule } from '../../comman-module/comman-module.module';
 
 
 @NgModule({

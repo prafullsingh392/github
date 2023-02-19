@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { GithubapisService } from 'src/app/services/githubapis.service';
+import { GithubapisService } from '../../../services/githubapis.service';
 import { Store } from '@ngrx/store';
-import * as appReducer from 'src/app/store/app.reducer';
-import { History } from 'src/app/models/history.model';
+import * as appReducer from '../../../store/app.reducer';
+import { History } from '../../../models/history.model';
 import * as HistoryActions from '../../../store/actions/history.actions';
-import { User } from 'src/app/models/user.model';
+import { User } from '../../../models/user.model';
 
 //interface GithubRes {incomplete_results:boolean,items:User[],total_count:number}
 
