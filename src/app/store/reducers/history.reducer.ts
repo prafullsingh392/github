@@ -1,5 +1,5 @@
 import { Action } from '@ngrx/store';
-import { History } from 'src/app/models/history.model';
+import { History } from '../../models/history.model';
 import * as HistoryActions from '../actions/history.actions';
 
 export interface HistoryState {
