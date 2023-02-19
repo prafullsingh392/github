@@ -1,0 +1,13 @@
+<div class="search-result" *ngIf="searchFlag">
+    <label>Search Results</label>
+    <div *ngIf="searchResults.length > 0;else noUser">
+        <div class="search-detail" *ngFor="let user of searchResults">
+            <app-user-card [user]="user"></app-user-card>
+        </div>
+    </div>
+    <ng-template #noUser>
+        <div class="search-detail">
+            <div>No User Found</div>
+        </div>
+    </ng-template>
+</div>

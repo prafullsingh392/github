@@ -1,0 +1,16 @@
+.header{
+    display: block;
+    background-color: white;
+}
+
+.header-position{
+    width: 200px;
+    float: right;
+    margin-right: 100px;
+}
+
+.header::after{
+    content: "";
+    clear: both;
+    display: table;
+}

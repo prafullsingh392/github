@@ -1,0 +1,30 @@
+.search-result{
+    margin-top: 60px;
+    width: 320px;
+    margin: 0 auto;
+    background: white;
+    .search-detail{
+        border: 1px solid #eeeef3;
+        width: 400px;
+        height: 200px;
+
+        .user-image{
+            width: 50%; 
+            float:left;
+            img{
+                display: block;
+                width: 150px;
+                margin: 20px;
+            }
+        }
+        .user-name{
+            width: 50%; 
+            float:right;
+            label{
+                display: block;
+            }
+            
+        }
+        
+    }
+}

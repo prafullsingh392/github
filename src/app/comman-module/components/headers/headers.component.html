@@ -1,0 +1,8 @@
+<div class="header">
+    <nav mat-tab-nav-bar [tabPanel]="tabPanel" class="header-position">
+        <a mat-tab-link [active]="activeLink == 'home'" (click)="navigate('home')" > Home </a>
+        <a mat-tab-link [active]="activeLink == 'history'" (click)="navigate('history')"> History </a>
+    </nav>
+    <mat-tab-nav-panel #tabPanel></mat-tab-nav-panel>
+</div>
+  

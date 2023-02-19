@@ -1,0 +1,89 @@
+.header{
+    width: 600px;
+    margin: 0 auto;
+    background: #f9f9f9;
+    line-height: 50px;
+    border: 1px solid #eeeef3;
+    height: 50px;
+
+    .search-term{
+        width: 30%; 
+        float:left;
+        padding-left: 5%;
+    }
+    .search-result{
+        width: 65%; 
+        float:right;
+           
+    }    
+}
+
+.history{
+    display: flex;
+    width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding-top: 10px;
+    border: 1px solid #efeff3;
+    .search-term{
+        width: 30%; 
+        float:left;
+        padding-left: 5%;
+    }
+    .search-result{
+        width: 65%; 
+        float:right;
+           
+    } 
+
+    .no-result{
+        padding: 20px 0;
+    }
+}
+
+.search-result{
+    margin-top: 60px;
+    width: 320px;
+    margin: 0 auto;
+    background: white;
+    .search-detail{
+        width: 400px;
+        height: 190px;
+
+        .user-image{
+            width: 50%; 
+            float:left;
+            img{
+                display: block;
+                width: 150px;
+                margin: 20px;
+            }
+        }
+        .user-name{
+            width: 50%; 
+            float:right;
+            label{
+                display: block;
+            }
+            
+        }
+        
+    }
+}
+
+
+.width{
+    width: 320px;
+    margin: auto;
+    display: inherit;
+    border: none;
+    margin-top: 20px;
+}
+
+
+
+.search{
+    background-color: #37b796;
+    color: white !important;
+    height: 45px;
+}

@@ -1,0 +1,17 @@
+.user-image{
+    width: 50%; 
+    float:left;
+    img{
+        display: block;
+        width: 150px;
+        margin: 20px;
+    }
+}
+.user-name{
+    width: 50%; 
+    float:right;
+    label{
+        display: block;
+    }
+    
+}

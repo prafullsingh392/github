@@ -1,0 +1,25 @@
+<div>
+    <div class="header">
+        <label class="search-term">Search Term</label>
+        <label class="search-result">Search Results</label>
+    </div>
+    <div *ngFor="let result of historyList">
+        <div class="history">
+            <label class="search-term">{{result.searchKey}}</label>
+            <div class="search-result">
+                <div *ngIf="result.searchResults.length > 0;else noUser">
+                    <div class="search-detail" *ngFor="let user of result.searchResults">
+                        <app-user-card [user]="user"></app-user-card>
+                    </div>
+                </div>
+                <ng-template #noUser>
+                    <div class="search-detail">
+                        <div>No User Found</div>
+                    </div>
+                </ng-template>                
+            </div>
+        </div>
+    </div>
+
+    <button class="width search" mat-stroked-button (click)="clearHistory()">Clear Search History</button>
+</div>
